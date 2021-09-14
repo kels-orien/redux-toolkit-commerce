@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton render correctly 1`] = `
+<div
+  className="sc-gtsrHT jtGPnF"
+>
+  <div
+    className="sc-bdnxRM gFJjPQ"
+  />
+</div>
+`;

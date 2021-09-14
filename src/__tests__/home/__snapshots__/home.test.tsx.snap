@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetches and displays all products 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-iqAclL jeywhT"
+  >
+    <div
+      class="sc-jrsJWt cdQzLn"
+    >
+      <div
+        class="sc-kEqXSa iddVoK"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

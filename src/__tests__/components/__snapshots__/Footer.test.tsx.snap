@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer render correctly 1`] = `
+<footer
+  className="sc-bdnxRM dYdqok"
+>
+  <div
+    className="sc-gtsrHT gXAmjl"
+  >
+    <div
+      className="sc-dlnjwi jfQrVR"
+    >
+      <div
+        className="sc-hKFxyN kJNMHm"
+      >
+        <div
+          className="sc-jSFjdj eVbjtC"
+        >
+          <div
+            className="sc-eCApnc KNIwK"
+          >
+            USEFUL LINKS
+          </div>
+          <div
+            className="sc-gKAaRy cANxWp"
+          >
+            <ul>
+              <a
+                href="/products/category/electronics"
+                onClick={[Function]}
+              >
+                <li>
+                  Electronics
+                </li>
+              </a>
+              <a
+                href="/products/category/jewelery"
+                onClick={[Function]}
+              >
+                <li>
+                  Jewelry
+                </li>
+              </a>
+              <a
+                href="/products/category/men's clothing"
+                onClick={[Function]}
+              >
+                <li>
+                  Men's Clothing
+                </li>
+              </a>
+              <a
+                href="/products/category/women's clothing"
+                onClick={[Function]}
+              >
+                <li>
+                  Women's Clothing
+                </li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-hKFxyN kJNMHm"
+      >
+        <div
+          className="sc-jSFjdj eVbjtC"
+        >
+          <div
+            className="sc-eCApnc KNIwK"
+          >
+            HELP
+          </div>
+          <div
+            className="sc-gKAaRy cANxWp"
+          >
+            <ul>
+              <li>
+                <a
+                  href="/"
+                >
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  Shipping
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  Payment
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  Returns
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-hKFxyN kJNMHm"
+      >
+        <div
+          className="sc-jSFjdj eVbjtC"
+        >
+          <div
+            className="sc-eCApnc KNIwK"
+          >
+            SOCIAL MEDIA
+          </div>
+          <div
+            className="sc-gKAaRy cANxWp"
+          >
+            <ul>
+              <li>
+                <a
+                  href="/"
+                >
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                >
+                  Twitter
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-iCoGMd hqNTnQ"
+  >
+    <div
+      className="sc-pNWdM fCsxSp"
+    >
+      © 2021 Korien. All Rights Reserved. |
+      <a
+        href="/"
+      >
+        <b>
+          Term of use
+        </b>
+      </a>
+       | 
+      <a
+        href="/"
+      >
+        <b>
+          Privacy Policy
+        </b>
+      </a>
+    </div>
+  </div>
+</footer>
+`;

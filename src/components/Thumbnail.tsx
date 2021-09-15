@@ -5,7 +5,7 @@ import { useAppDispatch } from '../app/hooks'
 import { Link } from 'react-router-dom'
 import { lightRed } from '../utils/colors'
 import { textTruncate } from '../utils/format'
-
+import { mobileMaxExtra } from '../utils/media'
 
 type productType = {
     id: number
@@ -41,7 +41,9 @@ const Image = styled.img`
     height: 200px; 
 
     
-    
+    ${mobileMaxExtra(css`
+      max-width: 100%;
+`)};
     
     
   
@@ -53,20 +55,11 @@ const Title = styled.p`
 
 `
 
-const SpanTitle = styled.span`
-    font-size: .7rem;
-    color: #D5D9D9;
-    display: none;
-    background-color: white;
-`   
 const Price = styled.p`
     font-weight: 500;
 `
 
-const PriceStrikeThrough = styled.span`
-    text-decoration: line-through;
-    font-weight: 500;
-`
+
 const Button = styled.button`
     border-radius: 8px;
     box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);

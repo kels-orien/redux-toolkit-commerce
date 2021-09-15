@@ -21,7 +21,7 @@ import { CloseIcon } from '../components/Icons'
   const Wrapper = styled.div`
     position: fixed;
     background-color: rgba(0, 0, 0, 0.5);
-    color: black
+    color: black;
     display: flex;
     align-items: center;
     top: 0px;

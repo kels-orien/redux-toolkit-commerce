@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useUI } from '../app/context'
 import styled from 'styled-components'
-import { CartIcon, CloseIcon, FoldIcon } from './Icons'
+import { CloseIcon, FoldIcon } from './Icons'
 import { Link } from 'react-router-dom'
 import { useHistory } from 'react-router-dom'
 
@@ -40,27 +40,7 @@ const CrossButton = styled.button`
     cursor: pointer;
 `
 
-const CenterWrapper = styled.div`
-    flex: 1 1 0%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-item: center;
-`
 
-const CenterSpan = styled.span`
-    border-width: 1px;
-    border-style: dashed;
-    border-color: rgba(255, 255, 255, 0.5);
-    border-radius: 9999px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 4rem;
-    height: 4rem;
-`
 
 
 const CartWrapper = styled.div`
@@ -68,19 +48,8 @@ const CartWrapper = styled.div`
     flex: 1 1 0%;
 `
 
-const Heading = styled.h2`
-    padding-top: 0.25rem;
-    padding-bottom: 1rem;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    line-height: 1.75rem;
-    font-weight: 700;
-    letter-spacing:0.025em
-`
-const HeadingUnderline = styled.ul`
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-`
+
+
 
 
 
@@ -252,11 +221,11 @@ const NavSidebarView = () => {
                                 <span>
                                     Categories
                                 </span>
+                                
+                                <ButtonWrapper>
                                 <ButtonSpan>
                                         <FoldIcon />
                                     </ButtonSpan>
-                                <ButtonWrapper>
-                                  
                                 </ButtonWrapper>
 
                             </GlobalHeaderMiniItemToggle >

@@ -1,7 +1,7 @@
 import React from 'react'
 import useState from 'react-usestateref'
 import styled, { css } from 'styled-components'
-import { mobile, mobileMax, mobileMaxExtra } from '../../utils/media';
+import { mobileMax, mobileMaxExtra } from '../../utils/media';
 import NavLinks from './NavLinks';
 import { lightRed } from '../../utils/colors';
 import { CartIcon, SearchIcon2, Logo } from '../Icons';
@@ -370,7 +370,7 @@ const Navbar = () => {
                     <MobileUl>
                         <MobileLi>
                             <MobileLiWrapper>
-                                <MobileA href="#">
+                                <MobileA href="#" onClick={() => openModal()}>
                                     Sign In
                                     <RightSeparator />
                                 </MobileA>

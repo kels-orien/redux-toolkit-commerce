@@ -5,8 +5,8 @@ import {
     enableBodyScroll,
     clearAllBodyScrollLocks,
   } from 'body-scroll-lock'
-import styled from 'styled-components'
-
+import styled, {css} from 'styled-components'
+import { mobileMaxExtra } from '../utils/media'
 import { CloseIcon } from '../components/Icons'
 
   interface Props {
@@ -50,6 +50,10 @@ import { CloseIcon } from '../components/Icons'
     border-width: 1px;
     border-color: #e9ecef;
     position: relative;
+
+    ${mobileMaxExtra(css`
+      padding: 0.5rem;
+`)};
 
 
     &:focus {
